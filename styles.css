@@ -1,7 +1,41 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
 
+.header {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-container2 {
+    display: contents;
+}
+
+.logo img {
+  padding: 10px;
+}
+
+.logo {
+  width: 120px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.botonSombra {
+  margin: auto 0;
+  border: solid 0px;
+  border-radius: 3px;
+  transition: all 0.4 ease;
 }
