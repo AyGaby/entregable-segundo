@@ -12,15 +12,28 @@ body {
   justify-content: space-between;
 }
 
+.conteiner-uno {
+  width: 50%;
+}
+
+.conteiner-dos {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
 .nav-container {
   width: 100%;
-  padding: 10px;
+  padding: 50px;
   display: flex;
   justify-content: space-around;
+  gap: 20px;
 }
 
 .nav-container2 {
-    display: contents;
+  display: contents;
 }
 
 .logo img {
@@ -33,9 +46,18 @@ body {
   justify-content: flex-start;
 }
 
-.botonSombra {
+.bottones {
+  background-color: white;
   margin: auto 0;
-  border: solid 0px;
-  border-radius: 3px;
+  border: none;
   transition: all 0.4 ease;
+  padding: 15px 32px;
+}
+
+.register {
+  border-radius: 2px;
+  border: #6966F2;
+  background-color: #6966F2;
+  padding: 15px 32px;
+  color: white;
 }
