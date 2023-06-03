@@ -64,6 +64,12 @@ body {
   white-space: pre-line;
 }
 
+.sub-title {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
 .parraph {
   font-family: "Arial Narrow", Arial, sans-serif;
   font-size: 11px;
@@ -90,3 +96,21 @@ body {
   padding: 15px 32px;
   color: white;
 }
+
+.dadfoother {
+  font-size: 10px;
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+}
+
+ul {
+  padding-left: 130px;
+  padding-top: 20px;
+  border-top-style: outset;
+  border-bottom-style: inset
+}
+ li {
+  display: flex;
+  align-items: center;
+ }
