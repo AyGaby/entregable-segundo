@@ -1,16 +1,15 @@
 html {
   padding: 1%;
-  background-color: #CFADEA;
+  background-color: #cfadea;
 }
-
 
 body {
   border-radius: 4px;
   background-color: white;
   margin: 0;
-  padding: 2%;
+  padding: 1%;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial;
 }
 
 .header {
@@ -26,7 +25,7 @@ body {
 
 .conteiner-dos {
   width: 100%;
-  padding: 50px;
+  padding: 10px;
   display: flex;
   justify-content: end;
   gap: 20px;
@@ -34,7 +33,7 @@ body {
 
 .nav-container {
   width: 100%;
-  padding: 50px;
+  padding: 25px;
   display: flex;
   justify-content: space-around;
   gap: 20px;
@@ -45,7 +44,7 @@ body {
 }
 
 .logo img {
-  padding: 10px;
+  padding: 0px;
 }
 
 .logo {
@@ -54,18 +53,40 @@ body {
   justify-content: flex-start;
 }
 
+.image {
+  width: 30%;
+  border-radius: 4px;
+}
+
+.title {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+  white-space: pre-line;
+}
+
+.parraph {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 11px;
+  white-space: pre-line;
+}
+
+.aside-left {
+  display: block;
+  margin-left: 130px;
+}
+
 .bottones {
   background-color: white;
   margin: auto 0;
   border: none;
-  transition: all 0.4 ease;
+  /* transition: all 0.4 ease; */
   padding: 15px 32px;
 }
 
 .register {
   border-radius: 2px;
-  border: #6966F2;
-  background-color: #6966F2;
+  border: #6966f2;
+  background-color: #6966f2;
   padding: 15px 32px;
   color: white;
 }
