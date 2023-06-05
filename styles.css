@@ -127,7 +127,6 @@ li {
 
 input[type="text"],
 input[type="email"] {
-
   width: 70%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 12px 28px;
@@ -138,7 +137,6 @@ input[type="email"] {
 }
 
 label {
-
   width: 180px;
   display: flex;
   justify-content: space-between;
