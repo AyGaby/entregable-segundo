@@ -1,0 +1,31 @@
+# entregable-segundo ʕ•́ᴥ•̀ʔっ
+
+Este proyecto contiene archivos HTML y CSS para la creación de un sitio web estático (y una referencia a Star Wars escondida en el codigo, sin razon alguna（っ＾▿＾）).
+
+Proporciona una estructura básica y estilos predefinidos que se pueden personalizar según las necesidades del proyecto.
+Se aguarda indicaciones para incorporarle archivos .js.
+
+Contenido del proyecto
+
+El proyecto está organizado de la siguiente manera:
+
+├── assets/
+    ├── image1.png
+    ├── image2.png
+    └── image3.png
+    └── image4.png
+├── index.html
+├── styles.css
+
+index.html: 
+Este archivo contiene la estructura HTML del sitio web. 
+Aquí es donde se agregará el contenido principal, como encabezados, párrafos, enlaces, imágenes, etc.
+
+styles.css: 
+Este archivo contiene los estilos CSS que se aplicarán a las diferentes partes del sitio web. 
+Aquí se pueden definir reglas de estilo para los elementos HTML, como colores, tamaños de fuente, márgenes, paddings, especificaciones para clases, etc.
+
+assets: 
+Esta carpeta contiene las imágenes utilizadas en el sitio web. 
+
+<fin> 
