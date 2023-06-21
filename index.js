@@ -27,17 +27,17 @@ function sendDatos()
     let phNumber=document.getElementById("phoneNumber").value;
     let msG=document.getElementById("message").value;
     if (fname=="")
-    { console.log("You must enter your name")}
+    { console.log("Holy guacamole! You must enter your name")}
     else if (lname=="")
-    {console.log("You must enter your last name")}
+    {console.log("Holy guacamole! You must enter your last name")}
     else if (email=="")
-    {console.log("Debe You must enter your E-mail")}
+    {console.log("Holy guacamole! Debe You must enter your E-mail")}
     else if (compName=="")
-    {console.log("You must enter your company name")}
+    {console.log("Holy guacamole! You must enter your company name")}
     else if (phNumber=="")
-    {console.log("You must enter your phone number")}
+    {console.log("Holy guacamole! You must enter your phone number")}
     else if (msG=="")
-    {console.log("You must write a message")}
+    {console.log("Holy guacamole! You must write a message")}
     else console.log("FIRST NAME: "+fname+", "+"LAST NAME: "+lname+", "+"E-MAIL:"+""+email+", "+"COMPANY NAME:"+compName+", "+"MESSAGE:"+""+msG);
 
     console.log("The data was sent");
